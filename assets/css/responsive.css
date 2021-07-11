@@ -1,0 +1,445 @@
+/* 
+
+
+File:           CSS Base
+Version:        1.1
+Last change:     
+Author:        HTMLmate
+
+*/
+
+/*-------- css code for responsive layout  --------*/
+/*  To make Responsive
+---------------------------------------------------------------------- /
+*   1 - media screen and (max-width: 1199px)
+*   2 - media screen and (max-width: 991px)
+*   3 - media screen and (max-width: 767px)
+*   4 - media screen and (max-width: 680px)
+*   5 - media screen and (max-width: 480px)
+*
+---------------------------------------------------------------------- /
+
+
+
+/*  1 - media screen and (max-width: 1199px)
+------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 1199px) { 
+	#main-menu nav {
+		width: 55%
+	}
+	.vidco-banner-content {
+		width: 970px;
+	}
+	.achivment-left-img .owl-controls {
+		left: -17px;
+	}
+	.contact-comment-info input {
+		width: 60%;
+	}
+
+}
+
+/*  1 - media screen and (max-width: 991px)
+------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 991px) { 
+	#main-nav {
+		display: none;
+	}
+	.navbar-default {
+		position: absolute;
+		width: 75%;
+	}
+	.main-menu-container.menu-bg-overlay {
+		padding-top: 10px;
+		padding-bottom: 0;
+	}
+	#main-menu nav {
+		width: 100%;
+	}
+	.main-menu-container {
+		padding-top: 20px;
+	}
+	.try-now-btn {
+		position: absolute;
+		top: 8px;
+		right: 0;
+	}
+	.navbar-default .navbar-brand {
+		margin-top: 10px;
+	}
+	.video-banner-bg  {
+		max-width: 570px;
+		margin-top: 50px;
+	}
+	.colmd4 {
+		margin: 0 auto 35px auto;
+	}
+	.achivment-left-img .owl-controls {
+		left: -30px;
+	}
+	.achivment-left {
+		margin-bottom: 35px;
+	}
+	.service-section .section-padding {
+		padding-bottom: 40px;
+	}
+	.achivment-section .section-padding {
+		padding-bottom: 50px;
+	}
+	.contact-comment-info input {
+		width: 100%;
+		margin: 25px 0px;
+	}
+	.colmd3 {
+		margin: 0 auto 30px auto;
+	}
+	.footer-area-brand {
+		padding-top: 0;
+	}
+	.footer-area-section .section-padding {
+		padding-bottom: 50px;
+	}
+	.item-wrap {
+		margin: 10px;
+	}
+	.service-single-right-content  {
+		margin-left: 0;
+		margin-left: 0;
+		padding: 0px 15px;
+	}
+	.service-single-list {
+		padding: 0px 15px 0px 0px;
+	}
+	.service-single-right-list .section-title {
+		margin-top: 20px;
+	}
+}
+
+/*  1 - media screen and (max-width: 767px)
+------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 767px) { 
+	.section-gradient-color {
+		height: auto;
+	}
+	.container {
+		padding: 0px 30px;
+	}
+	.counter-item {
+		max-width: 270px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.achivment-section .view-button {
+		text-align: center;
+	}
+	.navbar-default {
+		width: 85%;
+        top: 2px;
+	}
+	.item-grid {
+		width: 50%;
+		float: left;
+	}
+	.footer-service-link,  
+	.contact-details  {
+		margin-top: 20px;
+		margin-bottom: 25px;
+	}
+	.contact-details  {
+		max-width: 270px;
+	}
+	.copy-right-text {
+		padding-top: 15px;
+	}
+	.get-start-content .section-title {
+		margin-top: 100px;
+	}
+	.get-start-section .vidco-play-icon {
+		top: inherit;
+	}
+	.get-start-section .browse-btn {
+		margin-top: 30px;
+	}
+	.progress-item-list {
+		width: 30%;
+		margin-bottom: 25px;
+	}
+}
+
+/*  1 - media screen and (max-width: 680px)
+------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 680px) { 
+	.banner-title {
+		font-size: 36px;
+	}
+	.try-now-btn {
+		height: 40px;
+		width: 130px;
+		line-height: 40px;
+		margin-top: 10px;
+	}
+	.main-menu-container.menu-bg-overlay {
+		padding-top: 5px;
+	}
+	.mean-container .mean-bar {
+		padding: 0;
+	}
+	.contact-info {
+		width: 97%;
+	}
+	.error-text h2 {
+		font-size: 100px;
+	}
+	.error-dec-text {
+		font-size: 28px;
+	}
+}
+
+
+/*  1 - media screen and (max-width: 620px)
+------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 520px) { 
+	.vidco-banner-section {
+		padding-bottom: 750px;
+	}
+	.navbar-default {
+		width: 80%;
+	}
+	.video-banner-bg {
+		max-width: 300px;
+	}
+	.item-wrap {
+		margin-bottom: 20px;
+	}
+	.vidco-banner-section.v2 .video-banner-bg {
+		max-width: 370px;
+	}
+}
+
+/*  1 - media screen and (max-width: 420px)
+------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 420px) { 
+	.vidco-banner-section {
+		padding-bottom: 550px;
+	}
+	.banner-title {
+		font-size: 26px;
+	}
+	.video-banner-bg {
+		margin-top: 30px;
+	}
+	.navbar-header {
+		width: 50%;
+	}
+	.navbar-default {
+		width: 72%;
+	}
+	.section-padding {
+		padding: 55px 0px;
+	}
+	.pt90 {
+		padding-top: 45px;
+	}
+	.section-title-head {
+		font-size: 26px;
+	}
+	.mt40 {
+		margin-top: 30px;
+	}
+	.counter-item {
+		margin-bottom: 25px;
+	}
+	.portfolio-section .section-title {
+		float: none !important;
+	}
+	.portfolio-tab-button {
+		float: none !important;
+	}
+	.nav-gallery li {
+		margin-left: 5px;
+	}
+	.item-grid {
+		width: 100%;
+	}
+	.pt80 {
+		padding-top: 45px;
+	}
+	.portfolio-section {
+		padding: 55px 0px;
+	}
+	.service-title-head {
+		font-size: 20px;
+	}
+	.service-text-icon {
+		padding: 20px;
+	}
+	.achivment-left-img {
+		max-width: 350px;
+	}
+	.contact-comment-info button {
+		height: 45px;
+		line-height: 45px;
+		width: 150px;
+	}
+	.newaletter-section-content {
+		padding: 30px 15px;
+	}
+	.featured-title-head {
+		font-size: 24px;
+	}
+	.featured-section .section-padding {
+		padding-bottom: 15px;
+	}
+	.testimonial-pic-text {
+		padding: 25px 15px;
+	}
+	.achivment-section .view-button {
+		margin-top: 15px;
+	}
+	.mb75 {
+		margin-bottom: 35px;
+	}
+	.section-title-text {
+		font-size: 16px;
+	}
+	.section-title-head {
+		font-size: 24px;
+	}
+	.testimonial-slide .owl-controls {
+		top: -60px;
+	}
+	.slider-bg-1, .slider-bg-2 {
+		padding-bottom: 530px;
+	}
+	.video-area.video-section  {
+		min-height: 530px;
+	}
+	.slick-prev:before, .slick-next:before {
+		font-size: 30px;
+	}
+	.slick-next {
+		right: 35px;
+	}
+	.slick-prev {
+		left: 20px;
+	}
+	.video-section-title h1 {
+		font-size: 35px;
+	}
+	.get-start-content .section-padding {
+		padding: 80px 0px;
+	}
+	.get-start-section .section-title-head {
+		line-height: 33px;
+	}
+	.vidco-banner-section.v2 {
+		padding-bottom: 700px;
+	}
+	.breadcrum-section {
+		padding-bottom: 280px;
+	}
+	.breadcrum-title-head {
+		font-size: 28px;
+	}
+	.pb30 {
+		padding-bottom: 15px;
+	}
+	.aminities-section .featured-icon-text {
+		margin-bottom: 0px;
+	}
+	.footer-service-link,
+	.contact-details {
+		margin-top: 15px;
+	}
+	.footer-area-brand {
+		margin-bottom: 20px;
+	}
+	.progress-item-list {
+		width: 100%;
+		margin-top: 25px;
+		margin-bottom: 0;
+	}
+	.progress-item-icon:after {
+		display: none;
+	}
+	.progress-text span {
+		font-size: 18px;
+	}
+	.blog-single-head {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.reply-meta {
+		float: none !important;
+		display: block;
+	}
+}
+@media screen and (max-width: 375px) {  
+	.banner-title-text {
+		max-width: 280px;
+	}
+	.try-now-btn {
+		width: 90px;
+	}
+	.achivment-left-img .owl-controls {
+		bottom: 0;
+		top: inherit;
+		left: 0;
+		transform: inherit;
+		text-align: center;
+		right: 0;
+		text-align: center;
+	}
+	.achivment-left-img .owl-dot {
+		display: inline-block;
+		bottom: -40px;
+		margin: 5px;
+
+	}
+	.item-wrap:hover .project-description, 
+	.item-wrap:hover .experties-name-designation {
+		left: 10px;
+	}
+	.project-description h3 {
+		font-size: 20px;
+	}
+	.mr30 {
+		margin-right: 15px;
+	}
+	.client-ratting {
+		float: none !important;
+	}
+	.ratting-number {
+		font-size: 30px;
+	}
+	.client-ratting {
+		float: left !important;
+		text-align: left;
+	}
+	.try-now-btn {
+		display: none;
+	}
+	.navbar-header {
+		width: 65%;
+	}
+	.testimonial-slide .owl-controls {
+		margin-top: 15px;
+		text-align: center;
+		position: inherit;
+		top: inherit;
+	}
+	.achivment-left-img {
+		max-width: 315px;
+	}
+	.vidco-banner-section.v2 .video-banner-bg {
+		max-width: 295px;
+	}
+	.vidco-banner-section.v2  .video-banner-img {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 320px) {  
+	.blog-meta li {
+		margin-right: 10px;
+	}
+}
